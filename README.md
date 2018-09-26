@@ -16,6 +16,11 @@ the site is deployed to Github pages (https://pages.github.com/).
 - Run ```npm run build``` to create static site files inside of /docs/.vuepress/dist directory
 - Run ```npm run dev``` to start a local dev server on localhost:8080
 
+## Add new style guide pages
+
+- Create new md fajl in /docs directory
+- Add a sidebar link to it in /docs/.vuepress/config.js file, in themeConfig.sidebar section
+
 ## Deploy
 
 To deploy the site to Github pages, run deploy.sh bash script
