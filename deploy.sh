@@ -7,8 +7,7 @@ npm run build
 # navigate into the deploy directory
 cd docs/.vuepress/dist
 
-# if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
+echo 'style-guide.vivifyideas.com' > CNAME
 
 git init
 git checkout -b gh-pages
