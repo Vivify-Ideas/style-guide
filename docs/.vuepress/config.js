@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/style-guide/',
+    base: '/',
     title: 'Vivify Ideas Style Guides',
     description: 'Vivify Ideas coding style guides for various tech stacks',
     themeConfig: {
