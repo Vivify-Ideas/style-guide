@@ -2,7 +2,7 @@
 set -e
 
 # build
-npm run build
+yarn build
 
 # navigate into the deploy directory
 cd docs/.vuepress/dist
