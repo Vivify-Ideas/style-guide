@@ -11,9 +11,9 @@ the site is deployed to Github pages (https://pages.github.com/).
 ## Dev set up
 
 - Clone the repository
-- Run `npm install` to install project dependencies
-- Run `npm run build` to create static site files inside of /docs/.vuepress/dist directory
-- Run `npm run dev` to start a local dev server on localhost:8080
+- Run `yarn` to install project dependencies
+- Run `yarn build` to create static site files inside of /docs/.vuepress/dist directory
+- Run `yarn dev` to start a local dev server on localhost:8080
 
 ## Add new style guide pages
 
