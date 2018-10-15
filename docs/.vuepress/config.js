@@ -9,7 +9,8 @@ module.exports = {
         logo: './vi-logo.png',
         sidebar: [
             '/',
-            ['/laravel-style-guide', 'Laravel style guide']
+            ['/laravel-style-guide', 'Laravel style guide'],
+            ['/angular-style-guide', 'Angular style guide'],
         ]
     }
 };
