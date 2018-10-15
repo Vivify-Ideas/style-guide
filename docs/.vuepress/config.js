@@ -12,6 +12,7 @@ module.exports = {
             ['/laravel-style-guide', 'Laravel style guide'],
             ['/angular-style-guide', 'Angular style guide'],
             ['/react-style-guide', 'React style guide'],
+            ['/vue-style-guide', 'Vue style guide']
         ]
     }
 };
