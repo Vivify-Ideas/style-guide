@@ -6,13 +6,14 @@ module.exports = {
         ['link', {rel: 'shortcut icon', type: "image/png", href: './favicon.png'}]
     ],
     themeConfig: {
-        logo: './vi-logo.png',
+        logo: './vi-logo.svg',
         sidebar: [
             '/',
             ['/laravel-style-guide', 'Laravel style guide'],
             ['/angular-style-guide', 'Angular style guide'],
             ['/react-style-guide', 'React style guide'],
             ['/vue-style-guide', 'Vue style guide'],
+            ['/html-css-style-guide', 'HTML/CSS style guide'],
             ['/boilerplates', 'Boilerplates']
         ]
     }
