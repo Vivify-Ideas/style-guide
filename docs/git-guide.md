@@ -7,7 +7,9 @@
 ### 1. Create a branch
 
 On your fork, create a new branch from the latest upstream "master" branch commit of the repository you need to work on.
-We do not enforce any particular branch naming policy, but we recommend using task ID or prefix, like `fix`, `feature` or `improvement`, for example.
+We do not enforce any particular branch naming policy, but we recommend using task ID or prefix, like `fix`, `feature` or `improvement`, for example. (`improvement/updated-react-version`, `fix/message-typo`, etc)
+
+In case VivifyScrum is your management tool and GitHub/GitLab/Bitbucket integration is enabled commit message should always contain ticket code, E.g. `"#BOARD-1 My awesome commit"`
 
 ### 2. Development and Pull Request
 
@@ -17,7 +19,7 @@ Work on your local repository as you see fit. When the time comes to make the PR
 
 - [Read more about Vivify Ideas Code Review](/)
 
-After a code review, add the requested changes in a new commit. This is useful because it's possible to check again only the specific changes that the reviewer requested. When your PR is approved, rearrange all the commits to have a descriptive history of your changes. Also rebase with master branch.
+After a code review, add the requested changes in a new commit. This is useful because it's possible to check again only the specific changes that the reviewer requested. When your PR is approved, rearrange all the commits to have a descriptive history of your changes. Also rebase with master branch (rebasing is always preferred instead of merging).
 
 #### 3.1 Avoiding cascading delays when submitting PRs that depend on one another
 
