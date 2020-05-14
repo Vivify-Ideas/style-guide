@@ -93,7 +93,12 @@ Be respectful to the reviewees. While adversarial thinking is handy, it's not yo
 
 ### Security
 
-Verify that API endpoints perform appropriate authorization and authentication consistent with the rest of the code base. Check for other common weaknesses, e.g., weak configuration, malicious user input, missing log events, etc. When in doubt, refer the CR to an application security expert.
+Verify that API endpoints perform appropriate authorization and authentication consistent with the rest of the code base.
+Check for other common weaknesses, e.g., weak configuration, malicious user input, missing log events, etc.
+
+When in doubt, refer the CR to an application security expert.
+
+- [Read more about Vivify Ideas Security Policy](/security)
 
 ### Comments: concise, friendly, actionable
 
